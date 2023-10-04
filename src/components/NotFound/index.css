@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.not-found-route-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-route-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.not-found-head {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-head {
+    font-size: 80px;
+  }
+}
